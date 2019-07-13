@@ -8,14 +8,14 @@ public class Main {
 	public static void main(String[] args) {
 		List<Conta> contas = new ArrayList<>();
 
-		Cliente clienteContaCorrente = new Cliente();
-		clienteContaCorrente.setNome("Maria");
-		Conta contaCorrente = new ContaCorrente(clienteContaCorrente);
+		Cliente cliente = new Cliente();
+		cliente.setNome("Maria");
+		Conta contaCorrente = new ContaCorrente(cliente);
 		contaCorrente.deposita(1000.00);
 
-		Cliente clienteEstudante = new Cliente();
-		clienteEstudante.setNome("João");
-		Conta contaEstudante = new ContaEstudante(clienteEstudante);
+		Cliente estudante = new Estudante();
+		estudante.setNome("João");
+		Conta contaEstudante = new ContaEstudante(estudante);
 		contaEstudante.deposita(1000.00);
 
 		contas.add(contaCorrente);
