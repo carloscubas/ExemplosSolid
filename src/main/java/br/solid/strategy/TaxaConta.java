@@ -1,4 +1,4 @@
-package br.solid.strategyexample;
+package br.solid.strategy;
 
 public class TaxaConta implements Tributo {
 

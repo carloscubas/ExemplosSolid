@@ -1,4 +1,4 @@
-package br.solid.strategyexample;
+package br.solid.strategy;
 
 import java.util.ArrayList;
 import java.util.List;
