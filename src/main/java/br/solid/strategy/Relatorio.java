@@ -13,6 +13,7 @@ public class Relatorio {
 
 	public void relatorio() {
 		for (Conta conta : contas) {
+			System.out.println("Conta: " + conta.getTipoConta().name());
 			System.out.println(conta.getCliente().getNome());
 			System.out.println(conta.getSaldo());
 
