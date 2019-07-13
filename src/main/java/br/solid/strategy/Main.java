@@ -22,8 +22,7 @@ public class Main {
 		contas.add(contaEstudante);
 
 		Relatorio relatorio = new Relatorio();
-		relatorio.addConta(contaCorrente);
-		relatorio.addConta(contaEstudante);
+		relatorio.addContas(contas);
 
 		relatorio.relatorio();
 	}

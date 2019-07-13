@@ -7,8 +7,8 @@ public class Relatorio {
 
 	public List<Conta> contas = new ArrayList<>();
 
-	public void addConta(Conta conta) {
-		contas.add(conta);
+	public void addContas(List<Conta> contas) {
+		this.contas = contas;
 	}
 
 	public void relatorio() {
